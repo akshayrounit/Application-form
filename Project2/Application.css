@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.apply_box{
+    max-width: 900px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgb(38, 38, 63);
+    border-radius: 10px;
+    
+}
+.title_small{
+    font-size: 20px;
+}
+.form_control{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,));
+    gap: 20px;
+    
+}
+.cv{
+
+    display: grid;
+    padding-bottom: 50px;
+    padding-top: 35px;
+}
+.button_container{
+    position: relative;
+    left: 90%;
+}
